@@ -1,38 +1,3 @@
-  197  sudo apt-get remove virtualbox
-  198  sudo apt-get remove virtualbox-dkms
-  199  clear
-  200  sudo /sbin/vboxconfig
-  201  sudo apt upgrade
-  202  sudo apt full-upgrade
-  203  sudo apt autoremove
-  204  curl -o Unix_commands.md https://gist.githubusercontent.com/phaneendra/3804036/raw/f124b9f7703114d6be22f55e775cd2d015a45a91/UnixCommands.md
-  205  cat Unix_commands.md
-  206  clear
-  207  ls
-  208  rm protonvpn-stable-release_1.0.8_all.deb 
-  209  ls ~ > home-contents.txt~
-  210  ls
-  211  cat home-content.txt
-  212  cat home-contents.txt~ 
-  213  rm home-contents.txt~ 
-  214  pwd
-  215  cat > langages.txt
-  216  ls
-  217  cat langages.txt
-  218  wc langages.txt
-  219  sort langages.txt
-  220  grep
-  221  grep Java
-  222  clear
-  223  [200~wget https://www.data.gouv.fr/s/resources/liste-de-prenoms/20141127-154433/Prenoms.csv~
-  224  wget https://www.data.gouv.fr/s/resources/liste-de-prenoms/20141127-154433/Prenoms.csv
-  225  head Prenoms.csv
-  226  head -n2 Prenoms.csv
-  227  grep "f;french" < Prenoms.csv | wc -l
-  228  man sort
-  229  clear
-  230  wget https://gist.githubusercontent.com/bhubr/bc3a21a0202109beeb31c4a677e0461b/raw/d8805eb82e8aabffab3b0163596c734f376617d0/wilders.csv
-  231  head -n3 wilders.csv
   232  grep "France,2019,PHP" < wilders.csv | wc -l | cat > php_france_2019.csv
   233  cat php_france_2019.csv
   234  grep Javascript wilders.csv > Javascript.csv
@@ -55,3 +20,4 @@
   251  cat -n8 javascript_biarritz_toulouse.csv
   252  cat -n 4 javascript_biarritz_toulouse.csv
   253  history | tail -n 57 > history.txt
+  254  history | tail -n 23 > history.txt
